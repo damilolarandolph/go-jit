@@ -4,7 +4,7 @@ import (
 	"io"
 	"unsafe"
 
-	"github.com/goccy/go-jit/internal/ccall"
+	"github.com/damilolarandolph/go-jit/internal/ccall"
 )
 
 type Function struct {
