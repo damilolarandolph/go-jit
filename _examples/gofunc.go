@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/goccy/go-jit"
+	"github.com/damilolarandolph/go-jit"
 )
 
 // func f() int {
