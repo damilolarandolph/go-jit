@@ -475,7 +475,7 @@ typedef struct jit_opcode_info jit_opcode_info_t;
 struct jit_opcode_info
 {
 	const char *name;
-  int		flags;
+	int			flags;
 };
 #define	JIT_OPCODE_DEST_MASK			0x0000000F
 #define	JIT_OPCODE_DEST_EMPTY			0x00000000

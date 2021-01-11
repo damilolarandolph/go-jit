@@ -1,10 +1,9 @@
 package ccall
 
 /*
-#cgo CFLAGS: -I../
-#cgo CFLAGS: -Iinclude
+#include "./include/jit/jit.h"
 
-#include <jit/jit.h>
+#cgo LDFLAGS: -L./libs/libjit.a -ljit
 */
 import "C"
 

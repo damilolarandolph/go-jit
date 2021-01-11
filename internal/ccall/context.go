@@ -1,10 +1,7 @@
 package ccall
 
 /*
-#cgo CFLAGS: -I../
-#cgo CFLAGS: -Iinclude
-
-#include <jit/jit.h>
+#include "./include/jit/jit.h"
 
 extern void *get_crosscall2addr();
 extern void *get_cgo_wait_runtime_init_done_addr();

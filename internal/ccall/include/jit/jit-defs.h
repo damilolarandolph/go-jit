@@ -54,7 +54,7 @@ typedef void *jit_ptr;
 typedef jit_nuint jit_size_t;
 
 #if defined(__cplusplus) && defined(__GNUC__)
-# define JIT_NOTHROW		
+# define JIT_NOTHROW		throw()
 #else
 # define JIT_NOTHROW
 #endif
