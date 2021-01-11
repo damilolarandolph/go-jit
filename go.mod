@@ -1,3 +1,3 @@
-module github.com/goccy/go-jit
+module github.com/damilolarandolph/go-jit
 
 go 1.15
